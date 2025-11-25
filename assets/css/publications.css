@@ -79,10 +79,10 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
-.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #38387c; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
 
 header {
-  background-color: #17ff13 !important;   /* your grey */
+  background-color: #ababab !important;   /* your grey */
   width: 232px !important;
   position: fixed !important;
   min-height: 100vh !important;           /* full height column */
