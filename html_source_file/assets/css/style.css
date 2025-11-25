@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 body { background-color: #fff; padding: 0px; font: 16.0px/1.5 'Lato', serif; color: #595959; font-weight: 400; margin: 0; }
 
 .pub-row { display: flex; align-items: center; }
@@ -114,8 +115,18 @@ th { color: #444; }
   dt { color: #3eb7f0; } }
 img { max-width: 100%; }
 
-header { width: 232px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; padding-top: 4.0em; text-align: center; }
-
+header {
+    width: 232px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+    background-color: #f0f0f093;   /* light grey */
+    padding-top: 4em;            /* keep your original spacing */
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 232px;                /* keep current sidebar width */
+    min-height: 100vh;               /* full height of screen */
+    box-sizing: border-box;      
+}
 header ul { list-style: none; height: 40px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 1px solid #e0e0e0; width: 270px; }
 
 header li { width: 89px; float: left; border-right: 1px solid #e0e0e0; height: 40px; }
@@ -173,10 +184,3 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
-header {
-    background-color: #f2f2f2;
-    padding: 2.5em 1em;
-    border-radius: 0;
-    width: 232px; /* keep same width */
-    height: 100vh; /* full vertical band */
-}
