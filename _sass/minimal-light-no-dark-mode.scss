@@ -288,7 +288,18 @@ header {
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   padding-top:4.0em;
-  text-align:center
+  text-align:center;
+  background-color: #f0f0f088;
+  width: 232px;
+  min-height: 100vh;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  z-index: 10000;
 }
 
 
