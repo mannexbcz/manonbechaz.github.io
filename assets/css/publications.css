@@ -82,11 +82,9 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
 
 header {
-  background-color: #5613ff !important;   /* your grey */
+  background-color: #17ff13 !important;   /* your grey */
   width: 232px !important;
   position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
   min-height: 100vh !important;           /* full height column */
   padding-top: 4em !important;
   padding-left: 1em !important;
